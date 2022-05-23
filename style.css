@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Oswald"; 
+    src: url(./fonts/Oswald-Regular.ttf) format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+body {
+    width: 1920px;
+    background: url(./img/mainscreen.png) no-repeat;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    background-color: rgba(0, 91, 193, 0.6);
+    align-items: center;
+}
+
+.header__logo {
+    position: absolute;
+    margin-left: 40px;
+}
+
+nav {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+main {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__blue-panel {
+    z-index: -1;
+    position: absolute;
+    width: 444px;
+    height: 720px;
+    background-color: rgba(0, 91, 193, 0.6);
+}
+
+.main__first-screen {
+    height: 720px;
+    border: rgba(255, 255, 255, 0) 2px solid;
+}
+
+.main__title {
+    z-index: 999;
+    margin-top: 200px;
+    width: 620px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+    margin-left: 190px;
+    color: white;
+}
+
+.main__subtitle {
+    z-index: 999;
+    margin-top: 40px;
+    margin-left: 190px;
+    width: 425px;
+    font-family: 'Open Sans', sans-serifs;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.main__move {
+    z-index: 999;
+    margin-top: 40px;
+    margin-left: 190px;
+    padding: 40px, 15px;
+    width: 160px;
+    height: 51px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0);
+    border: white 2px solid;
+}
